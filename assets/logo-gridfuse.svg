@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+  <defs>
+    <!-- Rich gold gradient -->
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%"  stop-color="#F6E27A"/>
+      <stop offset="40%" stop-color="#F0C24B"/>
+      <stop offset="70%" stop-color="#D49B26"/>
+      <stop offset="100%" stop-color="#B97A12"/>
+    </linearGradient>
+
+    <style>
+      .wordmark { font-family: Inter, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-weight: 800; letter-spacing: 1px; }
+      .subline  { font-family: Inter, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-weight: 700; letter-spacing: 4px; }
+    </style>
+  </defs>
+
+  <!-- Shield + lightning (outlined gold shield, dark fill, gold bolt) -->
+  <g transform="translate(60,48) scale(1.7)">
+    <!-- Shield outline -->
+    <path d="M52 12 C42 18,30 20,20 22 C20 59,34 78,52 90 C70 78,84 59,84 22 C74 20,62 18,52 12 Z"
+          fill="#0B0B0B" stroke="url(#gold)" stroke-width="6" />
+    <!-- Lightning bolt -->
+    <path d="M56 30 L42 54 L56 54 L48 76 L74 44 L58 44 Z" fill="url(#gold)"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="350" y="130" class="wordmark" font-size="96" fill="#FFFFFF">GRIDFUSE</text>
+  <text x="350" y="190" class="subline"  font-size="34" fill="url(#gold)">PROTECTION SERVICES</text>
+</svg>
