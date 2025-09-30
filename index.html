@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>GridFuse Protection Services — Surge Protection & Solar Safety</title>
+<meta name="description" content="Premium surge protection, solar PV protectors and fuseboard upgrades. Book a free first assessment (normally £150). Certified electricians, insurance-backed warranties.">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"GridFuse Protection Services",
+  "description":"Surge protection, PV protectors, fuseboard upgrades, monitoring & warranties across the UK.",
+  "url":"https://example.com/",
+  "telephone":"+44-0000-000000",
+  "image": "/assets/logo-gridfuse.svg",
+  "address":{"@type":"PostalAddress","addressCountry":"GB"},
+  "areaServed":"United Kingdom",
+  "makesOffer":[
+    {"@type":"Offer","name":"Surge Protection Installation"},
+    {"@type":"Offer","name":"Solar PV Protectors"},
+    {"@type":"Offer","name":"Fuseboard Upgrades"},
+    {"@type":"Offer","name":"RCD/RCBO Installation"},
+    {"@type":"Offer","name":"System Monitoring"},
+    {"@type":"Offer","name":"Warranties & Service Plans"}
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site">
+  <div class="nav container">
+    <div class="brand">
+      <img src="/assets/logo-gridfuse.svg" alt="GridFuse logo" />
+    </div>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#book">Book Assessment</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-primary" href="#book">Book Free Assessment</a>
+  </div>
+</header>
+
+<section class="container hero">
+  <div class="copy">
+    <h1>Protect your home, power your future.</h1>
+    <p class="lead">Certified surge protection, solar PV protectors & fuseboard upgrades. Insured workmanship, monitoring and warranties.</p>
+    <div style="display:flex;gap:12px;margin-top:10px">
+      <a class="btn btn-primary" href="#book">Book Free Assessment</a>
+      <a class="btn btn-ghost" href="#services">View Services</a>
+    </div>
+    <p class="muted" style="margin-top:12px">Certified electricians • Insurance-backed warranties • On-site & remote monitoring</p>
+  </div>
+</section>
+
+<main class="container">
+  <section id="services">
+    <div class="section-title">
+      <h2 style="margin:0">Our core services</h2>
+    </div>
+    <div class="grid grid-3">
+      <article class="card">
+        <h3>Surge Protection</h3>
+        <p class="muted">Whole-home surge defence and EV charger protection to keep appliances and inverters safe.</p>
+      </article>
+      <article class="card">
+        <h3>Solar PV Protectors</h3>
+        <p class="muted">Export accuracy checks, DC surge suppression and inverter interface protection.</p>
+      </article>
+      <article class="card">
+        <h3>Fuseboard Upgrades</h3>
+        <p class="muted">Modern consumer units, RCBOs and certification on completion.</p>
+      </article>
+    </div>
+  </section>
+
+  <section style="margin-top:26px">
+    <div class="section-title"><h2 style="margin:0">How it works</h2></div>
+    <div class="grid grid-3">
+      <div class="card"><h3>1. Book</h3><p class="muted">Book your free assessment (normally £150).</p></div>
+      <div class="card"><h3>2. Diagnose</h3><p class="muted">On-site tests & report for surges, RCDs, inverter stress.</p></div>
+      <div class="card"><h3>3. Install & Protect</h3><p class="muted">Upgrades with documentation, warranty & optional monitoring.</p></div>
+    </div>
+  </section>
+
+  <section id="book" style="margin-top:26px">
+    <div class="section-title"><h2 style="margin:0">Book your free first assessment</h2></div>
+    <div class="card">
+      <form name="book-assessment" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="book-assessment">
+        <p style="display:none"><label>Don’t fill this out: <input name="bot-field"></label></p>
+        <div class="form-row">
+          <div><label>Name<input name="name" required placeholder="Your full name"></label></div>
+          <div><label>Email<input name="email" type="email" required placeholder="you@example.com"></label></div>
+        </div>
+        <div class="form-row">
+          <div><label>Phone<input name="phone" required placeholder="+44 ..."></label></div>
+          <div><label>Postcode<input name="postcode" required placeholder="e.g. SO14 3AA"></label></div>
+        </div>
+        <div class="form-row">
+          <div><label>System Type<select name="system">
+            <option>Solar PV</option><option>No Solar (Domestic)</option><option>Commercial</option>
+          </select></label></div>
+          <div><label>Preferred Date/Time<input name="datetime" type="datetime-local"></label></div>
+        </div>
+        <label>Brief Problem / Notes<textarea name="notes" rows="4" placeholder="Tell us what’s going on..."></textarea></label>
+        <button class="btn btn-primary" type="submit">Request Assessment</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact" style="margin-top:26px">
+    <div class="section-title"><h2 style="margin:0">Contact</h2></div>
+    <div class="grid grid-2">
+      <div class="card">
+        <p class="muted">Main: +44 (0) 0000 000000<br/>Support: +44 (0) 0000 000111<br/>Email: hello@gridfuse.example</p>
+        <form name="contact" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact">
+          <p style="display:none"><label>Don’t fill this out: <input name="bot-field"></label></p>
+          <label>Name<input name="name" required></label>
+          <label>Email<input name="email" type="email" required></label>
+          <label>Message<textarea name="message" rows="4" required></textarea></label>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="card">
+        <h3>Hours & Area</h3>
+        <p class="muted">Mon–Fri 08:00–18:00. UK-wide service coverage.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="container">
+  <div class="footer-grid">
+    <div>
+      <img src="/assets/logo-gridfuse.svg" alt="GridFuse logo" style="height:32px"/>
+      <p class="muted" style="margin-top:8px">Premium surge protection & solar safety. Insurance-backed workmanship. UK-wide.</p>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <ul style="list-style:none;padding:0;margin:0;display:grid;gap:8px">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#book">Book Assessment</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <ul style="list-style:none;padding:0;margin:0;display:grid;gap:8px">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p class="muted">Main: +44 (0) 0000 000000<br/>Support: +44 (0) 0000 000111<br/>Email: hello@gridfuse.example</p>
+    </div>
+  </div>
+  <hr/>
+  <small class="muted">© <span id="y"></span> GridFuse Protection Services. All rights reserved.</small>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
